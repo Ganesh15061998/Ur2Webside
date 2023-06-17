@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Document</title>
+  <style>
+    
+
+   
+  </style>
+</head>
+<body>
+  <div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        <img id="navicontop" src="data:image/png;base64,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">
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+
+    <div class="nav-links">
+      <a href="//github.io/jo_geek" target="_blank">OFFICE ORDERING</a>
+      <a href="http://stackoverflow.com/users/4084003/" target="_blank">RESTAURANT</a>
+      <a href="https://in.linkedin.com/in/jonesvinothjoseph" target="_blank">HOTELS</a>
+      <a href="https://codepen.io/jo_Geek/" target="_blank">LOGIN/LOGOUT</a>
+      <button id="orderbtn">ORDER NOW</button>
+      <i style="font-size:20px" class="fa" id='addtocardicon'>&#xf07a;</i>
+    </div>
+  </div>
+
+
+
+
+  <div class="container">
+    <div class="left-column">
+      <h2 id="localname">Local </h2>
+      <div id="RESTAURANTSname"> RESTAURANTS</div>
+      <div id="Deliveredname">Delivered</div>
+      <p id="Fooddeliveryname">Food delivery in minutes</p>
+
+      <div class="containerqq">
+        <div class="cardqq">
+          <div class="left-contentqq">
+            <div class="search-container">
+              <input type="serach" placeholder="Search..."  id="serachTop"><br>
+              <button id="serachTopbtn">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="padding-top: 20PX;">VIEW ALL RESTAURANTS</div>
+      
+    </div>
+
+    <div class="right-column">
+      <img class="product-image" src="https://st4.depositphotos.com/16846226/20843/i/600/depositphotos_208430430-stock-photo-fresh-burger-isolated.jpg" alt="Product Image">
+    </div>
+  </div>
+
+
+
+
+  <div class="containers">
+    <div class="content">
+      <div class="title">Welcome to 2 Ur Table's Local Restaurants Delivery</div>
+      <div class="message">DOWNLOAD THE TO UR TABLE APP BY CLICKING ON ICON</div>
+      <div class="images">
+        <img class="image" src="https://www.seekpng.com/png/detail/223-2231228_app-store-apple-transprent-download-on-apple-store.png" alt="Image 1">
+        <img class="image" src="https://e7.pngegg.com/pngimages/52/715/png-clipart-google-play-logo-google-play-computer-icons-app-store-google-text-logo.png" alt="Image 2">
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="containerss">
+    <div><h2 id="HOWDOIORDER">HOW DO I ORDER</h2></div>
+    <div><p id="ReallyEasyWayToOrderFood">Really Easy Way To Order Food</p></div>
+    <div class="cards">
+      
+      <div class="card">
+        <img class="map-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8GIhhky0c5NR6aidN2YA9st6JyFTugzPRfOe-E0dOCMs6jfV-qxHC3U2G5bzgRyktN3c&usqp=CAU" alt="Map Icon">
+        <div class="step">Step 1</div>
+        <p>Enter Address</p>
+      </div>
+      <div class="card">
+        <img class="map-icon" src="https://img.freepik.com/premium-photo/red-house-logo-3d-rendering-illustration_585146-372.jpg?w=360" alt="Map Icon">
+        <div class="step">Step 2</div>
+<p>Select Restaurants</p>
+      </div>
+      <div class="card">
+        <img class="map-icon" src="https://st2.depositphotos.com/3682225/7526/v/950/depositphotos_75266343-stock-illustration-menu-design-food-cooking-dishes.jpg" alt="Map Icon">
+        <div class="step">Step 3</div>
+        <p>Sits Back </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="containersss">
+    <div class="testimonial">
+      <div class="title">TESTIMONIALS</div>
+      <div class="description">WHAT OUR CUSTOMERS SAY ABOUT DINE TO DOOR</div>
+    </div>
+  </div>
+
+
+
+  <div class="containerssss">
+    <div class="cardss">
+      <div class="arrow prev">&#8249;</div>
+      <div class="arrow next">&#8250;</div>
+      <div class="contents">I Love That 2Ur Powered & Operated by Local Peoples Supports Local Business</div>
+      <div class="namess">- Griff G</div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="containerssssss">
+    <div class="card-containersss">
+      <div class="cardsss" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3opnwO9cg1GSgbcCU0CQb0jYRR3__rIGRxA&usqp=CAU');">
+        <div class="card-contentsss">Own Restaurant</div>
+      </div>
+      <div class="cardsss" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRumbk3hyAUUt_lRvG7cad15hlIkiAydzVWNFEccjJl3WiT4HcVnuc42OV_89Hwg5TElQI&usqp=CAU');">
+        <div class="card-contentsss">Drive with us</div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+  <div class="containerww">
+    <div class="cardww">
+      <div class="left-sectionww" style="padding-left: 20px;">
+        <div style="padding-left: 25px;">
+          <div style="color: red; font-size:20px">CALL US AT</div>
+          <div style="font-size: 30px;">8049351885</div>
+          <hr>
+          <br><br>
+        </div>
+        <p>USEFUL LINKS</p>
+        <p>Restaurants</p>
+        <p>Corporate Accounts</p>
+        <p>Gift Certificate</p>
+        <p>Catering</p>
+      </div>
+      <div class="center-sectionww">
+        <p style="padding-left: 30px;">GET IN TOUCH</p>
+        <div class="social-iconsww" style="padding-left: 50px;">
+          <i class="fa fa-facebook-f" style="font-size:48px;color:red"></i>
+          <i class="fa fa-instagram" style="font-size:48px;color:red"></i>
+        </div>
+        <p>We serve the Greater Seattle </p>
+        <p>South King Country Eastsute</p>
+        <p>and South Sound area</p>
+      </div>
+      <div class="right-sectionww">
+        <p>DELIVERY HOURS </p>
+        <p>9:00am - 08:30pm</p>
+        <img src="https://us1-photo.nextdoor.com/business_logo/5c/87/5c87fe72952820932570c4af7783fa7d.jpeg" alt="Logo" style="width: 120px; padding-top:15px">
+      </div>
+    </div>
+  </div>
+  
+</body>
+</html>
